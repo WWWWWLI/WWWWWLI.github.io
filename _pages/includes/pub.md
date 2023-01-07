@@ -1,7 +1,7 @@
 # 📝 Publications 
 
 ## 📚 Speaker Verification and Keyword Spotting Multi-task
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INTERSPEECH 2021</div><img src='images/decoupling.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2022</div><img src='images/decoupling.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Learning Decoupling Features Through Orthogonality Regularization](https://ieeexplore.ieee.org/document/9747878) \\
