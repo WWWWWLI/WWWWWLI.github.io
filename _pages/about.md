@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+Thanks to Yi Ren (任意) for his open source contribution, template link [AcadHomepage ![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social)](https://github.com/RayeRen/acad-homepage.github.io).
+
 <span class='anchor' id='about-me'></span>
 {% include_relative includes/intro.md %}
-
-If you like the template of this homepage, welcome to star and fork my open-sourced template version [AcadHomepage ![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social)](https://github.com/RayeRen/acad-homepage.github.io).
 
 {% include_relative includes/news.md %}
 
