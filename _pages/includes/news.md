@@ -8,5 +8,6 @@
 - *2022.02*: I release a modern and responsive academic personal [homepage template](https://github.com/RayeRen/acad-homepage.github.io). Welcome to STAR and FORK!
 - *2022.02*: 🎉🎉 Two papers are accepted by ACL 2022
 -->
-- *2022.01*: One paper is accepted by ICASSP 2022!
-- *2021.06*: One paper is accepted by INTERSPEECH 2021!
+
+- *2023.12*: Two papers are accepted by ICASSP 2024!
+

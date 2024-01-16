@@ -1,5 +1,28 @@
 # 📝 Publications 
 
+## 📚 Attack and Defense of Speaker Verification
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='images/advsv.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AdvSV: An Over-the-Air Adversarial Attack Dataset for Speaker Verification](https://arxiv.org/abs/2310.05369)
+**Li Wang**, Jiaqi Li, Yuhao Luo, Jiahao Zheng, Lei Wang, Hao Li, Ke Xu, Chengfang Fang, Jie Shi, Zhizheng Wu
+
+- Deep neural networks, including Automatic Speaker Verification (ASV) systems, are vulnerable to adversarial attacks. This study introduces an open-source adversarial attack dataset, AdvSV, for ASV research, focusing initially on over-the-air attacks, which involve perturbation generation, loudspeakers, microphones, and varying acoustic environments. Based on the Voxceleb1 Verification test set, AdvSV simulates over-the-air attacks using representative ASV models, aiming to standardize and facilitate reproducible research in this field.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='images/neural_replay_simulator.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[An Initial Investigation of Neural Replay Simulator for Over-the-Air Adversarial Perturbations to Automatic Speaker Verification](https://arxiv.org/abs/2310.05354)
+Jiaqi Li, **Li Wang**, Liumeng Xue, Lei Wang, Zhizheng Wu
+
+- Deep Learning has advanced Automatic Speaker Verification (ASV), but physical access adversarial attacks, particularly over-the-air involving loudspeakers, microphones, and replaying environments, are less studied. This research explores using a neural replay simulator to enhance over-the-air attack robustness in ASV. By simulating the replay process with a neural waveform synthesizer, the study on the ASVspoof2019 dataset shows increased success rates of these attacks, highlighting security concerns for ASV in physical access scenarios.
+
+</div>
+</div>
+
 ## 📚 Speaker Verification and Keyword Spotting Multi-task
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2022</div><img src='images/decoupling.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
