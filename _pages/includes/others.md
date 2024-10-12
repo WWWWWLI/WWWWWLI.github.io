@@ -13,11 +13,19 @@
 
 # 🏀 Services
 
-- Reviewer: 
+- Reviewer
   - [IEEE/ACM Transactions on Audio, Speech, and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655)
   - [IEEE International Conference on Acoustics, Speech and Signal Processing](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings)
   - [IEEE Signal Processing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97)
   - [National Conference on Man-Machine Speech Communication(NCMMSC)](http://www.ncmmsc.org.cn/)
+
+- Student Volunteer
+  - [IEEE Spoken Language Technology Workshop 2024](https://2024.ieeeslt.org/)
+
+- Teaching Assistant	
+  - 2023 Fall, CSC1001 Introduction to Computer Science: Programming Methodology, CUHK-Shenzhen.
+  - 2024 Spring, CSC3160/AIR6063 [Fundamentals of Speech and Language Processing/Spoken Language Processing](https://drwuz.com/CSC3160/index.html), CUHK-Shenzhen.
+  - 2024 Fall, DDA3020 Machine Learning, CUHK-Shenzhen.
 
 # 👏 Template of This Page
 
