@@ -1,5 +1,16 @@
 # 📝 Publications 
 
+## 📚 Spoken Misinformation Detection
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SLT 2024</div><img src='images/spmis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[An Investigation of Synthetic Spoken Misinformation Detection. Proceedings of the IEEE Spoken Language Technology Workshop](https://arxiv.org/abs/2409.11308) \\
+Peizhuo Liu*, **Li Wang***, Renqiang He*, Haorui He, Lei Wang, Huadi Zheng, Jie Shi, Tong Xiao, Zhizheng Wu.
+
+- Recent advancements in speech generation, driven by generative models and large-scale training, have enabled high-quality synthetic speech but also raised concerns about its misuse for generating misinformation. While much research focuses on distinguishing machine-generated speech from human speech, the pressing challenge is detecting misinformation within spoken content, requiring analysis of factors like speaker identity, topic, and synthesis. In response, we introduce SpMis, an open-source dataset for detecting synthetic spoken misinformation. SpMis includes speech from over 1,000 speakers across five topics using state-of-the-art text-to-speech systems. Our findings highlight both promising detection capabilities and significant practical challenges, emphasizing the need for continued research in this field.
+</div>
+</div>
+
 ## 📚 Attack and Defense of Speaker Verification
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='images/advsv.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

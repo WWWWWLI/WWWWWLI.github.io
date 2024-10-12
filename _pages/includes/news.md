@@ -9,5 +9,6 @@
 - *2022.02*: 🎉🎉 Two papers are accepted by ACL 2022
 -->
 
+- *2024.08*: Our paper [SpMis](https://arxiv.org/abs/2409.11308) got accepted by SLT 2024!
 - *2023.12*: Two papers are accepted by ICASSP 2024!
 

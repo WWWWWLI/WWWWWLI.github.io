@@ -14,6 +14,8 @@
 # 🏀 Services
 
 - Reviewer: 
+  - [IEEE/ACM Transactions on Audio, Speech, and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655)
+  - [IEEE International Conference on Acoustics, Speech and Signal Processing](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings)
   - [IEEE Signal Processing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97)
   - [National Conference on Man-Machine Speech Communication(NCMMSC)](http://www.ncmmsc.org.cn/)
 
