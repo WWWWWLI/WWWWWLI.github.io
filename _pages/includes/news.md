@@ -9,6 +9,6 @@
 - *2022.02*: 🎉🎉 Two papers are accepted by ACL 2022
 -->
 
-- *2024.08*: Our paper [SpMis](https://arxiv.org/abs/2409.11308) got accepted by SLT 2024!
+- *2024.08*: Our paper [SpMis](https://arxiv.org/abs/2409.11308) was selected for the Best Paper Finalists at IEEE SLT 2024 (9/373, Top 2.5%)! 
 - *2023.12*: Two papers are accepted by ICASSP 2024!
 
