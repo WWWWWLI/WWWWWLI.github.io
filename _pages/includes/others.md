@@ -18,6 +18,7 @@
   - [IEEE International Conference on Acoustics, Speech and Signal Processing](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings)
   - [IEEE Signal Processing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97)
   - [National Conference on Man-Machine Speech Communication(NCMMSC)](http://www.ncmmsc.org.cn/)
+  - [International Conference on Asian Language Processing (IALP)](https://www.colips.org/conferences/ialp2025/wp/)
 
 - Student Volunteer
   - [IEEE Spoken Language Technology Workshop 2024](https://2024.ieeeslt.org/)
