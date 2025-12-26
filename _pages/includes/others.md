@@ -28,6 +28,9 @@
   - 2024 Spring, CSC3160/AIR6063 [Fundamentals of Speech and Language Processing/Spoken Language Processing](https://drwuz.com/CSC3160/index.html), CUHK-Shenzhen.
   - 2024 Fall, DDA3020 Machine Learning, CUHK-Shenzhen.
 
+- Standard Development
+  - I participated in the development of 《Method for Identifying AI-Generated Synthetic Content》（《人工智能生成合成内容标识方法 文件元数据隐式标识 文本文件》）, published by National Technical Committee 260 on Cybersecurity of SAC (全国网络安全标准化委员会), available at [National Information Security Standardization Technical Committee](https://www.tc260.org.cn/portal/article/2/20250828165129)
+
 # 👏 Template of This Page
 
 Thanks to Yi Ren (任意) for his open source contribution, template
