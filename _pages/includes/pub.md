@@ -14,6 +14,17 @@ Peizhuo Liu*, **Li Wang***, Renqiang He*, Haorui He, Lei Wang, Huadi Zheng, Jie 
 </div>
 
 ## 📚 Attack and Defense of Speaker Verification
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ACM TASLP 2026</div><img src='images/advsv.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Over-the-Air Adversarial Attacks and Detection for Automatic Speaker Verification](https://ieeexplore.ieee.org/document/11334038) \\
+**Li Wang**, Xiao Lei, Haorui He, Lei Wang, Jie Shi, Zhizheng Wu
+
+- ASV systems are vulnerable to both over-the-line and over-the-air adversarial attacks, but detection methods lack comprehensive benchmarks. We introduce AdvSV 2.0 (628k samples, 800 hours) spanning classical attack algorithms, multiple ASV systems, and OTL/OTA conditions; a Neural Replay Simulator (NRS) strengthens OTA attacks; and we propose CODA-OCC, a one-class contrastive detector that outperforms strong baselines on AdvSV 2.0.
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ICASSP 2024</div><img src='images/advsv.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
