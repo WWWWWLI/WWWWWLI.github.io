@@ -14,7 +14,7 @@ Peizhuo Liu*, **Li Wang***, Renqiang He*, Haorui He, Lei Wang, Huadi Zheng, Jie 
 </div>
 
 ## 📚 Attack and Defense of Speaker Verification
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ACM TASLP 2026</div><img src='images/advsv.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ACM TASLP 2026</div><img src='images/NRS_based_PGD_2.png' alt="AdvSV 2.0 and NRS-based OTA attacks" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Over-the-Air Adversarial Attacks and Detection for Automatic Speaker Verification](https://ieeexplore.ieee.org/document/11334038) \\
