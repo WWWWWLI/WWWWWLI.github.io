@@ -1,7 +1,7 @@
 # 📖 Educations
 
-- **2023.06 - Present**, Ph.D., The Chinese University of Hong Kong, Shenzhen, Shenzhen.
-- **2019.06 - 2022.07**, Master, Peking University, Shenzhen.
+- **2023.09 - Present**, Ph.D., The Chinese University of Hong Kong, Shenzhen, Shenzhen.
+- **2019.09 - 2022.07**, Master, Peking University, Shenzhen.
 - **2015.09 - 2019.06**, Undergraduate, University of Electronic Science and Technology of China, Chengdu.
 
 
