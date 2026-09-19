@@ -1,0 +1,58 @@
+[
+  {
+    "id": "en-real",
+    "language": "English",
+    "label": "Bona fide",
+    "text": "I heard the land where the hobbits live, the Shire, has actually been filmed in New Zealand.",
+    "route": "iPhone → Samsung",
+    "denoising": "off",
+    "audio": {
+      "digital": "audio/en-real-digital.wav",
+      "earpiece": "audio/en-real-earpiece.wav",
+      "speakerphone": "audio/en-real-speakerphone.wav",
+      "wired_headset": "audio/en-real-wired_headset.wav"
+    }
+  },
+  {
+    "id": "en-synthetic",
+    "language": "English",
+    "label": "Synthetic · CosyVoice2",
+    "text": "It is operated by the New York City Department of Parks and Recreation.",
+    "route": "iPhone → Samsung",
+    "denoising": "off",
+    "audio": {
+      "digital": "audio/en-synthetic-digital.wav",
+      "earpiece": "audio/en-synthetic-earpiece.wav",
+      "speakerphone": "audio/en-synthetic-speakerphone.wav",
+      "wired_headset": "audio/en-synthetic-wired_headset.wav"
+    }
+  },
+  {
+    "id": "zh-real",
+    "language": "Mandarin",
+    "label": "Bona fide",
+    "text": "过了一会一切都结束了，这座山在月光下显得幽静而静谧。",
+    "route": "iPhone → Samsung",
+    "denoising": "off",
+    "audio": {
+      "digital": "audio/zh-real-digital.wav",
+      "earpiece": "audio/zh-real-earpiece.wav",
+      "speakerphone": "audio/zh-real-speakerphone.wav",
+      "wired_headset": "audio/zh-real-wired_headset.wav"
+    }
+  },
+  {
+    "id": "zh-synthetic",
+    "language": "Mandarin",
+    "label": "Synthetic · CosyVoice2",
+    "text": "一端是该名词的正向描述，另一端是负面描述。",
+    "route": "iPhone → Samsung",
+    "denoising": "off",
+    "audio": {
+      "digital": "audio/zh-synthetic-digital.wav",
+      "earpiece": "audio/zh-synthetic-earpiece.wav",
+      "speakerphone": "audio/zh-synthetic-speakerphone.wav",
+      "wired_headset": "audio/zh-synthetic-wired_headset.wav"
+    }
+  }
+]
