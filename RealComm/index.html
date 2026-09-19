@@ -6,7 +6,7 @@
 <meta name="description" content="RealComm: a paired bilingual corpus and benchmark for audio deepfake detection over real mobile-call channels. Audio examples, evaluation results, and simulated and real-call adaptation.">
 <meta name="theme-color" content="#ffffff"><link rel="canonical" href="https://wwwwwli.github.io/RealComm/">
 <meta property="og:type" content="website"><meta property="og:title" content="RealComm: Audio Deepfake Detection over Real Mobile-Call Channels"><meta property="og:description" content="Paired digital and real-call speech, six-model evaluation, and simulated and real-call adaptation.">
-<link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="style.css?v=diversity1"><script src="app.js?v=diversity1" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
@@ -24,9 +24,16 @@
 <div class="table-wrap compact-table"><table><caption>Source partitions and real-call recordings · Table I in the manuscript</caption><thead><tr><th scope="col">Split</th><th scope="col">Digital sources</th><th scope="col">Recorded sources</th><th scope="col">Conditions / source</th><th scope="col">Call recordings</th></tr></thead><tbody><tr><th scope="row">Train</th><td>1,792</td><td>224</td><td>44</td><td>9,856</td></tr><tr><th scope="row">Development</th><td>448</td><td>56</td><td>44</td><td>2,464</td></tr><tr><th scope="row">Test</th><td>560</td><td>560</td><td>42</td><td>23,520</td></tr></tbody></table></div>
 <p class="note">The source pool is balanced by authenticity and language (English / Mandarin), with synthetic speech from seven generators. Train and test share the generator set. Repeated call versions expand condition coverage rather than the number of independent source utterances.</p>
 </section>
-<section id="listen"><h2>Paired audio examples</h2><p>Listen to the same utterance before and after a real call. The call versions below share the route <strong>iPhone → Samsung</strong> and <strong>denoising off</strong>; the input configuration changes.</p>
-<div class="listening"><div class="listen-toolbar"><label for="example">Example</label><select id="example"><option>Loading audio examples…</option></select></div><div class="transcript-wrap"><span class="small-label">Target text</span><p id="transcript" class="transcript" aria-live="polite"></p></div><div class="audio-grid" id="audio-grid"></div><p id="audio-error" role="status"></p></div>
-<p class="note">These are full-length, unmodified WAV recordings from the frozen test manifest. Playback is not loudness-normalized. Examples were selected without detector scores. OtA uses external loudspeaker playback and microphone capture; LtM uses a wired microphone input.</p>
+<section id="listen"><h2>Paired audio examples</h2><p>Explore <strong>16 source examples</strong> in English and Mandarin: bona fide speech and all <strong>seven TTS systems</strong>, spanning <strong>eight directed device routes</strong>. Within each example, the digital reference and three call configurations share the same source utterance; the call route is fixed.</p>
+<div class="listening">
+<div class="listen-toolbar">
+<div class="control-field"><span id="language-label" class="control-label">Language</span><div class="language-switch" role="group" aria-labelledby="language-label"><button type="button" data-language="zh" aria-pressed="true">中文 / Mandarin</button><button type="button" data-language="en" aria-pressed="false">English</button></div></div>
+<div class="control-field source-control"><label for="example">Voice source</label><select id="example"><option>Loading audio examples…</option></select></div>
+<div class="control-field" id="denoising-control" hidden><label for="denoising">Denoising</label><select id="denoising"><option value="baseline">Off</option></select></div>
+</div>
+<p id="example-meta" class="example-meta" aria-live="polite"></p>
+<div class="transcript-wrap"><span class="small-label">Target text</span><p id="transcript" class="transcript" aria-live="polite"></p></div><div class="audio-grid" id="audio-grid"></div><p id="audio-error" role="status"></p></div>
+<p class="note">Choose a language and voice source above. For bona fide and CosyVoice2 examples, switch denoising off/on to compare matched recordings. Other examples show their recorded denoising state below each player; “no user-controlled switch” is distinct from off. OtA uses acoustic injection; LtM uses a wired microphone input. WAV files are unchanged and are not loudness-normalized; selection does not use detector scores.</p>
 </section>
 <section id="results"><h2>Zero-shot detection</h2><p>All six detectors have higher EER after call transmission; five increase by more than 30 percentage points. A smaller change from a weak digital baseline, as for XLSR-SLS, does not imply better channel robustness.</p>
 <div class="table-wrap results-table"><table><caption>Zero-shot equal error rate (%) ↓ · Table II in the manuscript</caption><thead><tr><th scope="col">Detector</th><th scope="col">Digital</th><th scope="col">Call</th><th scope="col">ΔEER (pp)</th></tr></thead><tbody><tr><th scope="row">WavLM-L</th><td>4.64</td><td>40.00</td><td>+35.36</td></tr><tr><th scope="row">Whisper</th><td>15.71</td><td>47.88</td><td>+32.17</td></tr><tr><th scope="row">AASIST</th><td>7.50</td><td>40.19</td><td>+32.69</td></tr><tr><th scope="row">Teffic-Audio</th><td>0.00</td><td>37.95</td><td>+37.95</td></tr><tr><th scope="row">XLSR-SLS</th><td>38.57</td><td>50.31</td><td>+11.73</td></tr><tr><th scope="row">DF Arena</th><td>7.86</td><td>38.77</td><td>+30.91</td></tr></tbody></table></div>

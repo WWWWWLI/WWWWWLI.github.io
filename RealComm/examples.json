@@ -1,58 +1,586 @@
 [
   {
-    "id": "en-real",
-    "language": "English",
-    "label": "Bona fide",
-    "text": "I heard the land where the hobbits live, the Shire, has actually been filmed in New Zealand.",
-    "route": "iPhone → Samsung",
-    "denoising": "off",
-    "audio": {
-      "digital": "audio/en-real-digital.wav",
-      "earpiece": "audio/en-real-earpiece.wav",
-      "speakerphone": "audio/en-real-speakerphone.wav",
-      "wired_headset": "audio/en-real-wired_headset.wav"
-    }
-  },
-  {
-    "id": "en-synthetic",
-    "language": "English",
-    "label": "Synthetic · CosyVoice2",
-    "text": "It is operated by the New York City Department of Parks and Recreation.",
-    "route": "iPhone → Samsung",
-    "denoising": "off",
-    "audio": {
-      "digital": "audio/en-synthetic-digital.wav",
-      "earpiece": "audio/en-synthetic-earpiece.wav",
-      "speakerphone": "audio/en-synthetic-speakerphone.wav",
-      "wired_headset": "audio/en-synthetic-wired_headset.wav"
-    }
-  },
-  {
     "id": "zh-real",
+    "language_code": "zh",
     "language": "Mandarin",
+    "generator": null,
     "label": "Bona fide",
     "text": "过了一会一切都结束了，这座山在月光下显得幽静而静谧。",
     "route": "iPhone → Samsung",
-    "denoising": "off",
+    "caller": "iPhone",
+    "receiver": "Samsung",
     "audio": {
       "digital": "audio/zh-real-digital.wav",
       "earpiece": "audio/zh-real-earpiece.wav",
       "speakerphone": "audio/zh-real-speakerphone.wav",
       "wired_headset": "audio/zh-real-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/zh-real-digital.wav",
+          "earpiece": "audio/zh-real-earpiece.wav",
+          "speakerphone": "audio/zh-real-speakerphone.wav",
+          "wired_headset": "audio/zh-real-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "off"
+        }
+      },
+      "on": {
+        "label": "On",
+        "audio": {
+          "digital": "audio/zh-real-digital.wav",
+          "earpiece": "audio/zh-real-earpiece-on.wav",
+          "speakerphone": "audio/zh-real-speakerphone-on.wav",
+          "wired_headset": "audio/zh-real-wired_headset-on.wav"
+        },
+        "denoising": {
+          "earpiece": "on",
+          "speakerphone": "on",
+          "wired_headset": "on"
+        }
+      }
     }
   },
   {
     "id": "zh-synthetic",
+    "language_code": "zh",
     "language": "Mandarin",
+    "generator": "CosyVoice2",
     "label": "Synthetic · CosyVoice2",
     "text": "一端是该名词的正向描述，另一端是负面描述。",
     "route": "iPhone → Samsung",
-    "denoising": "off",
+    "caller": "iPhone",
+    "receiver": "Samsung",
     "audio": {
       "digital": "audio/zh-synthetic-digital.wav",
       "earpiece": "audio/zh-synthetic-earpiece.wav",
       "speakerphone": "audio/zh-synthetic-speakerphone.wav",
       "wired_headset": "audio/zh-synthetic-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/zh-synthetic-digital.wav",
+          "earpiece": "audio/zh-synthetic-earpiece.wav",
+          "speakerphone": "audio/zh-synthetic-speakerphone.wav",
+          "wired_headset": "audio/zh-synthetic-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "off"
+        }
+      },
+      "on": {
+        "label": "On",
+        "audio": {
+          "digital": "audio/zh-synthetic-digital.wav",
+          "earpiece": "audio/zh-synthetic-earpiece-on.wav",
+          "speakerphone": "audio/zh-synthetic-speakerphone-on.wav",
+          "wired_headset": "audio/zh-synthetic-wired_headset-on.wav"
+        },
+        "denoising": {
+          "earpiece": "on",
+          "speakerphone": "on",
+          "wired_headset": "on"
+        }
+      }
+    }
+  },
+  {
+    "id": "zh-f5tts",
+    "language_code": "zh",
+    "language": "Mandarin",
+    "generator": "F5-TTS",
+    "label": "Synthetic · F5-TTS",
+    "text": "要穿袜子的时候，永远凑不出完整的一对袜子呢。",
+    "route": "Mate70 Pro → Samsung",
+    "caller": "Mate70 Pro",
+    "receiver": "Samsung",
+    "audio": {
+      "digital": "audio/zh-f5tts-digital.wav",
+      "earpiece": "audio/zh-f5tts-earpiece.wav",
+      "speakerphone": "audio/zh-f5tts-speakerphone.wav",
+      "wired_headset": "audio/zh-f5tts-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/zh-f5tts-digital.wav",
+          "earpiece": "audio/zh-f5tts-earpiece.wav",
+          "speakerphone": "audio/zh-f5tts-speakerphone.wav",
+          "wired_headset": "audio/zh-f5tts-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "off"
+        }
+      }
+    }
+  },
+  {
+    "id": "zh-flexivoice",
+    "language_code": "zh",
+    "language": "Mandarin",
+    "generator": "FlexiVoice",
+    "label": "Synthetic · FlexiVoice",
+    "text": "于是他问岳母，是否也想变成个十八岁的少女跳来跳去。",
+    "route": "Samsung → Mate70 Pro",
+    "caller": "Samsung",
+    "receiver": "Mate70 Pro",
+    "audio": {
+      "digital": "audio/zh-flexivoice-digital.wav",
+      "earpiece": "audio/zh-flexivoice-earpiece.wav",
+      "speakerphone": "audio/zh-flexivoice-speakerphone.wav",
+      "wired_headset": "audio/zh-flexivoice-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/zh-flexivoice-digital.wav",
+          "earpiece": "audio/zh-flexivoice-earpiece.wav",
+          "speakerphone": "audio/zh-flexivoice-speakerphone.wav",
+          "wired_headset": "audio/zh-flexivoice-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "not_available"
+        }
+      }
+    }
+  },
+  {
+    "id": "zh-indextts2",
+    "language_code": "zh",
+    "language": "Mandarin",
+    "generator": "IndexTTS2",
+    "label": "Synthetic · IndexTTS2",
+    "text": "但法国的农业渔业和工业，也都非常重要。",
+    "route": "iPhone → Vivo",
+    "caller": "iPhone",
+    "receiver": "Vivo",
+    "audio": {
+      "digital": "audio/zh-indextts2-digital.wav",
+      "earpiece": "audio/zh-indextts2-earpiece.wav",
+      "speakerphone": "audio/zh-indextts2-speakerphone.wav",
+      "wired_headset": "audio/zh-indextts2-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/zh-indextts2-digital.wav",
+          "earpiece": "audio/zh-indextts2-earpiece.wav",
+          "speakerphone": "audio/zh-indextts2-speakerphone.wav",
+          "wired_headset": "audio/zh-indextts2-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "off"
+        }
+      }
+    }
+  },
+  {
+    "id": "zh-maskgct",
+    "language_code": "zh",
+    "language": "Mandarin",
+    "generator": "MaskGCT",
+    "label": "Synthetic · MaskGCT",
+    "text": "你的口气闻起来如此之差，以至于连狗都厌恶地退避三舍。",
+    "route": "Vivo → iPhone",
+    "caller": "Vivo",
+    "receiver": "iPhone",
+    "audio": {
+      "digital": "audio/zh-maskgct-digital.wav",
+      "earpiece": "audio/zh-maskgct-earpiece.wav",
+      "speakerphone": "audio/zh-maskgct-speakerphone.wav",
+      "wired_headset": "audio/zh-maskgct-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/zh-maskgct-digital.wav",
+          "earpiece": "audio/zh-maskgct-earpiece.wav",
+          "speakerphone": "audio/zh-maskgct-speakerphone.wav",
+          "wired_headset": "audio/zh-maskgct-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "not_available",
+          "speakerphone": "off",
+          "wired_headset": "not_available"
+        }
+      }
+    }
+  },
+  {
+    "id": "zh-minimax",
+    "language_code": "zh",
+    "language": "Mandarin",
+    "generator": "Minimax",
+    "label": "Synthetic · Minimax",
+    "text": "他甚至有可能成为成长为几万年来，三界四域唯一的道境高手。",
+    "route": "Samsung → iPhone",
+    "caller": "Samsung",
+    "receiver": "iPhone",
+    "audio": {
+      "digital": "audio/zh-minimax-digital.wav",
+      "earpiece": "audio/zh-minimax-earpiece.wav",
+      "speakerphone": "audio/zh-minimax-speakerphone.wav",
+      "wired_headset": "audio/zh-minimax-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/zh-minimax-digital.wav",
+          "earpiece": "audio/zh-minimax-earpiece.wav",
+          "speakerphone": "audio/zh-minimax-speakerphone.wav",
+          "wired_headset": "audio/zh-minimax-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "not_available"
+        }
+      }
+    }
+  },
+  {
+    "id": "zh-vevo2",
+    "language_code": "zh",
+    "language": "Mandarin",
+    "generator": "Vevo2",
+    "label": "Synthetic · Vevo2",
+    "text": "并采取实际行动，去培训快递员这方面的法律意识。",
+    "route": "Vivo → Mate70 Pro",
+    "caller": "Vivo",
+    "receiver": "Mate70 Pro",
+    "audio": {
+      "digital": "audio/zh-vevo2-digital.wav",
+      "earpiece": "audio/zh-vevo2-earpiece.wav",
+      "speakerphone": "audio/zh-vevo2-speakerphone.wav",
+      "wired_headset": "audio/zh-vevo2-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/zh-vevo2-digital.wav",
+          "earpiece": "audio/zh-vevo2-earpiece.wav",
+          "speakerphone": "audio/zh-vevo2-speakerphone.wav",
+          "wired_headset": "audio/zh-vevo2-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "not_available",
+          "speakerphone": "off",
+          "wired_headset": "not_available"
+        }
+      }
+    }
+  },
+  {
+    "id": "en-real",
+    "language_code": "en",
+    "language": "English",
+    "generator": null,
+    "label": "Bona fide",
+    "text": "I heard the land where the hobbits live, the Shire, has actually been filmed in New Zealand.",
+    "route": "iPhone → Samsung",
+    "caller": "iPhone",
+    "receiver": "Samsung",
+    "audio": {
+      "digital": "audio/en-real-digital.wav",
+      "earpiece": "audio/en-real-earpiece.wav",
+      "speakerphone": "audio/en-real-speakerphone.wav",
+      "wired_headset": "audio/en-real-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/en-real-digital.wav",
+          "earpiece": "audio/en-real-earpiece.wav",
+          "speakerphone": "audio/en-real-speakerphone.wav",
+          "wired_headset": "audio/en-real-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "off"
+        }
+      },
+      "on": {
+        "label": "On",
+        "audio": {
+          "digital": "audio/en-real-digital.wav",
+          "earpiece": "audio/en-real-earpiece-on.wav",
+          "speakerphone": "audio/en-real-speakerphone-on.wav",
+          "wired_headset": "audio/en-real-wired_headset-on.wav"
+        },
+        "denoising": {
+          "earpiece": "on",
+          "speakerphone": "on",
+          "wired_headset": "on"
+        }
+      }
+    }
+  },
+  {
+    "id": "en-synthetic",
+    "language_code": "en",
+    "language": "English",
+    "generator": "CosyVoice2",
+    "label": "Synthetic · CosyVoice2",
+    "text": "It is operated by the New York City Department of Parks and Recreation.",
+    "route": "iPhone → Samsung",
+    "caller": "iPhone",
+    "receiver": "Samsung",
+    "audio": {
+      "digital": "audio/en-synthetic-digital.wav",
+      "earpiece": "audio/en-synthetic-earpiece.wav",
+      "speakerphone": "audio/en-synthetic-speakerphone.wav",
+      "wired_headset": "audio/en-synthetic-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/en-synthetic-digital.wav",
+          "earpiece": "audio/en-synthetic-earpiece.wav",
+          "speakerphone": "audio/en-synthetic-speakerphone.wav",
+          "wired_headset": "audio/en-synthetic-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "off"
+        }
+      },
+      "on": {
+        "label": "On",
+        "audio": {
+          "digital": "audio/en-synthetic-digital.wav",
+          "earpiece": "audio/en-synthetic-earpiece-on.wav",
+          "speakerphone": "audio/en-synthetic-speakerphone-on.wav",
+          "wired_headset": "audio/en-synthetic-wired_headset-on.wav"
+        },
+        "denoising": {
+          "earpiece": "on",
+          "speakerphone": "on",
+          "wired_headset": "on"
+        }
+      }
+    }
+  },
+  {
+    "id": "en-f5tts",
+    "language_code": "en",
+    "language": "English",
+    "generator": "F5-TTS",
+    "label": "Synthetic · F5-TTS",
+    "text": "They climbed a tall crane without securing themselves and filmed it for their YouTube channel.",
+    "route": "Mate70 Pro → Vivo",
+    "caller": "Mate70 Pro",
+    "receiver": "Vivo",
+    "audio": {
+      "digital": "audio/en-f5tts-digital.wav",
+      "earpiece": "audio/en-f5tts-earpiece.wav",
+      "speakerphone": "audio/en-f5tts-speakerphone.wav",
+      "wired_headset": "audio/en-f5tts-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/en-f5tts-digital.wav",
+          "earpiece": "audio/en-f5tts-earpiece.wav",
+          "speakerphone": "audio/en-f5tts-speakerphone.wav",
+          "wired_headset": "audio/en-f5tts-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "off"
+        }
+      }
+    }
+  },
+  {
+    "id": "en-flexivoice",
+    "language_code": "en",
+    "language": "English",
+    "generator": "FlexiVoice",
+    "label": "Synthetic · FlexiVoice",
+    "text": "This form of legislation would not receive royal assent like Acts of Parliament do.",
+    "route": "Mate70 Pro → Samsung",
+    "caller": "Mate70 Pro",
+    "receiver": "Samsung",
+    "audio": {
+      "digital": "audio/en-flexivoice-digital.wav",
+      "earpiece": "audio/en-flexivoice-earpiece.wav",
+      "speakerphone": "audio/en-flexivoice-speakerphone.wav",
+      "wired_headset": "audio/en-flexivoice-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/en-flexivoice-digital.wav",
+          "earpiece": "audio/en-flexivoice-earpiece.wav",
+          "speakerphone": "audio/en-flexivoice-speakerphone.wav",
+          "wired_headset": "audio/en-flexivoice-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "off"
+        }
+      }
+    }
+  },
+  {
+    "id": "en-indextts2",
+    "language_code": "en",
+    "language": "English",
+    "generator": "IndexTTS2",
+    "label": "Synthetic · IndexTTS2",
+    "text": "By very dexterous military and diplomatic operations Vitellius succeeded completely.",
+    "route": "Samsung → Mate70 Pro",
+    "caller": "Samsung",
+    "receiver": "Mate70 Pro",
+    "audio": {
+      "digital": "audio/en-indextts2-digital.wav",
+      "earpiece": "audio/en-indextts2-earpiece.wav",
+      "speakerphone": "audio/en-indextts2-speakerphone.wav",
+      "wired_headset": "audio/en-indextts2-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/en-indextts2-digital.wav",
+          "earpiece": "audio/en-indextts2-earpiece.wav",
+          "speakerphone": "audio/en-indextts2-speakerphone.wav",
+          "wired_headset": "audio/en-indextts2-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "not_available"
+        }
+      }
+    }
+  },
+  {
+    "id": "en-maskgct",
+    "language_code": "en",
+    "language": "English",
+    "generator": "MaskGCT",
+    "label": "Synthetic · MaskGCT",
+    "text": "This artful creation is more than just a picture, it's a statement by the artist.",
+    "route": "iPhone → Vivo",
+    "caller": "iPhone",
+    "receiver": "Vivo",
+    "audio": {
+      "digital": "audio/en-maskgct-digital.wav",
+      "earpiece": "audio/en-maskgct-earpiece.wav",
+      "speakerphone": "audio/en-maskgct-speakerphone.wav",
+      "wired_headset": "audio/en-maskgct-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/en-maskgct-digital.wav",
+          "earpiece": "audio/en-maskgct-earpiece.wav",
+          "speakerphone": "audio/en-maskgct-speakerphone.wav",
+          "wired_headset": "audio/en-maskgct-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "off"
+        }
+      }
+    }
+  },
+  {
+    "id": "en-minimax",
+    "language_code": "en",
+    "language": "English",
+    "generator": "Minimax",
+    "label": "Synthetic · Minimax",
+    "text": "By very dexterous military and diplomatic operations Vitellius succeeded completely.",
+    "route": "Vivo → iPhone",
+    "caller": "Vivo",
+    "receiver": "iPhone",
+    "audio": {
+      "digital": "audio/en-minimax-digital.wav",
+      "earpiece": "audio/en-minimax-earpiece.wav",
+      "speakerphone": "audio/en-minimax-speakerphone.wav",
+      "wired_headset": "audio/en-minimax-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/en-minimax-digital.wav",
+          "earpiece": "audio/en-minimax-earpiece.wav",
+          "speakerphone": "audio/en-minimax-speakerphone.wav",
+          "wired_headset": "audio/en-minimax-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "not_available",
+          "speakerphone": "off",
+          "wired_headset": "not_available"
+        }
+      }
+    }
+  },
+  {
+    "id": "en-vevo2",
+    "language_code": "en",
+    "language": "English",
+    "generator": "Vevo2",
+    "label": "Synthetic · Vevo2",
+    "text": "They climbed a tall crane without securing themselves and filmed it for their YouTube channel.",
+    "route": "Samsung → iPhone",
+    "caller": "Samsung",
+    "receiver": "iPhone",
+    "audio": {
+      "digital": "audio/en-vevo2-digital.wav",
+      "earpiece": "audio/en-vevo2-earpiece.wav",
+      "speakerphone": "audio/en-vevo2-speakerphone.wav",
+      "wired_headset": "audio/en-vevo2-wired_headset.wav"
+    },
+    "variants": {
+      "baseline": {
+        "label": "Off",
+        "audio": {
+          "digital": "audio/en-vevo2-digital.wav",
+          "earpiece": "audio/en-vevo2-earpiece.wav",
+          "speakerphone": "audio/en-vevo2-speakerphone.wav",
+          "wired_headset": "audio/en-vevo2-wired_headset.wav"
+        },
+        "denoising": {
+          "earpiece": "off",
+          "speakerphone": "off",
+          "wired_headset": "not_available"
+        }
+      }
     }
   }
 ]
