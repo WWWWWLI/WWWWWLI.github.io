@@ -12,5 +12,13 @@
 - *2022.02*: 🎉🎉 Two papers are accepted by ACL 2022
 -->
 
+- *2026.09*: My first-author paper [GenTraceBench](https://arxiv.org/abs/2609.21738) was accepted by IEEE ISCSLP 2026.
+- *2026.09*: My first-author manuscript [RealComm](https://wwwwwli.github.io/RealComm/) was submitted to IEEE/ACM TASLP. [[Code](https://github.com/AmphionTeam/RealComm)]
+- *2026.09*: I contributed to the audio deepfake detection capability integrated into Huawei HarmonyOS 7.
+- *2026.07*: We release [Teffic-Audio: Tell Fact from Fiction](https://arxiv.org/abs/2607.28351), a general speech deepfake detection system. Visit the [project page](https://tefficlabs.com/) for more details.
+- *2026.04*: We release [VoxSafeBench: Not Just What Is Said, but Who, How, and Where](https://arxiv.org/abs/2604.14548), a benchmark for evaluating safety, fairness, and privacy in speech language models. [[Project Page](https://amphionteam.github.io/VoxSafeBench_demopage/)] [[Code](https://github.com/AmphionTeam/VoxSafeBench)]
 - *2026.01*: Our paper [Over-the-Air Adversarial Attacks and Detection for Automatic Speaker Verification](https://ieeexplore.ieee.org/document/11334038) is published in IEEE/ACM TASLP.
-
+- *2025.12*: We release [DFALLM: Achieving Generalizable Multitask Deepfake Detection by Optimizing Audio LLM Components](https://arxiv.org/abs/2512.08403), a generalizable Audio LLM framework for multitask audio deepfake detection.
+- *2025.11*: Our paper [SpeechJudge: Towards Human-Level Judgment for Speech Naturalness](https://arxiv.org/abs/2511.07931) is accepted by ICLR 2026.
+- *2024.08*: Our paper [SpMis](https://arxiv.org/abs/2409.11308) is selected as an IEEE SLT 2024 Best Paper Finalist (Top 2.5%).
+- *2023.12*: Two papers on over-the-air adversarial attacks for automatic speaker verification are accepted by ICASSP 2024.

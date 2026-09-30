@@ -11,12 +11,21 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{王力}
-
-\basicInfo{
-\email{liwang1@link.cuhk.edu.cn} \textperiodcentered\
-\faDesktop{\href{https://wwwwwli.github.io/}{~王力个人主页}} \textperiodcentered\
-\faGraduationCap {\href{https://scholar.google.com/citations?user=NLQPDrsAAAAJ&hl}{~谷歌学术}} }
+\noindent
+\begin{minipage}[c]{0.82\textwidth}
+  \name{王力}
+  \basicInfo{
+    \email{804672694@qq.com} \textperiodcentered\
+    \phone{15528025779}（微信同号） }
+  \basicInfo{
+    \faDesktop{\href{https://wwwwwli.github.io/}{~个人主页}} \textperiodcentered\
+    \faGraduationCap {\href{https://scholar.google.com/citations?user=NLQPDrsAAAAJ&hl}{~谷歌学术}} }
+\end{minipage}\hfill
+\begin{minipage}[c]{0.14\textwidth}
+  \raggedleft
+  \includegraphics[width=0.78in]{证件照.JPG}
+\end{minipage}
+\vspace{0.5ex}
 
 \small \textbf{研究方向：} Safety, Audio Deepfake Detection, Audio Language Model
  
@@ -41,6 +50,12 @@
 
 \section{发表论文}
 \begin{enumerate}\itemsep 0.5em
+  \item \textbf{Li Wang}, Kunyu Feng, Wan Lin, Dekun Chen, Qinke Ni, Xueyao Zhang, Lei Wang, Jie Shi, Haizhou Li, Zhizheng Wu. \href{https://arxiv.org/abs/2609.21738}{[PDF]} \\GenTraceBench: A Benchmark for Tracing Audio Deepfakes Across Pre- and Post-training Stages. \textit{Accepted by the IEEE International Symposium on Chinese Spoken Language Processing (ISCSLP 2026).}
+  \item \textbf{Li Wang*}, Jindong Wang*, Wan Lin*, Kunyu Feng*, Lei Wang, Rizhao Cai, Ce Fang, Jinzhe Xue, Jie Shi, Haizhou Li, Zhizheng Wu. \href{https://wwwwwli.github.io/RealComm/}{[Project]} \href{https://github.com/AmphionTeam/RealComm}{[Code]} \\RealComm: Benchmarking and Adapting Audio Deepfake Detection over Real Communication Channels. \textit{Submitted to IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP). (* Equal contribution.)}
+  \item Wan Lin, \textbf{Li Wang}, Jindong Wang, Kunyu Feng, Zhizheng Wu. \href{https://arxiv.org/abs/2607.28351}{[PDF]} \href{https://tefficlabs.com/}{[Project]} \\Teffic-Audio: Tell Fact from Fiction. \textit{Technical Report, arXiv:2607.28351, 2026.}
+  \item Yuxiang Wang, Hongyu Liu, Yijiang Xu, Qinke Ni, \textbf{Li Wang}, Wan Lin, Kunyu Feng, Dekun Chen, Xu Tan, Lei Wang, Jie Shi, Zhizheng Wu. \href{https://arxiv.org/abs/2604.14548}{[PDF]} \href{https://amphionteam.github.io/VoxSafeBench_demopage/}{[Project]} \href{https://github.com/AmphionTeam/VoxSafeBench}{[Code]} \\VoxSafeBench: Not Just What Is Said, but Who, How, and Where. \textit{Preprint, arXiv:2604.14548, 2026.}
+  \item Yupei Li*, \textbf{Li Wang*}, Yuxiang Wang, Lei Wang, Rizhao Cai, Jie Shi, Björn W. Schuller, Zhizheng Wu. \href{https://arxiv.org/abs/2512.08403}{[PDF]} \\DFALLM: Achieving Generalizable Multitask Deepfake Detection by Optimizing Audio LLM Components. \textit{Technical Report, arXiv:2512.08403, 2025. (* Equal contribution.)}
+  \item Xueyao Zhang, Chaoren Wang, Huan Liao, Ziniu Li, Yuancheng Wang, \textbf{Li Wang}, Dongya Jia, Yuanzhe Chen, Xiulin Li, Zhuo Chen, Zhizheng Wu. \href{https://arxiv.org/abs/2511.07931}{[PDF]} \\SpeechJudge: Towards Human-Level Judgment for Speech Naturalness. \textit{Proceedings of the 14th International Conference on Learning Representations (ICLR 2026).}
   \item \textbf{Li Wang}, Xiao Lei, Haorui He, Lei Wang, Jie Shi, Zhizheng Wu. \href{https://ieeexplore.ieee.org/document/11334038}{[PDF]} \\Over-the-Air Adversarial Attacks and Detection for Automatic Speaker Verification. \textit{IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), 2026.}
   \item Peizhuo Liu*, \textbf{Li Wang*}, Renqiang He*, Haorui He, Lei Wang, Huadi Zheng, Jie Shi, Tong Xiao, Zhizheng Wu. \href{https://arxiv.org/abs/2409.11308}{[PDF]} \\SpMis: An Investigation of Synthetic Spoken Misinformation Detection. \textit{Proceedings of the IEEE Spoken Language Technology Workshop (SLT 2024).} (\textbf{Best Paper Finalist, Top 2.5\%})
   \item \textbf{Li Wang}, Jiaqi Li, Yuhao Luo, Jiahao Zheng, Lei Wang, Hao Li, Ke Xu, Chengfang Fang, Jie Shi, Zhizheng Wu. \href{https://arxiv.org/abs/2310.05369}{[PDF]} \\AdvSV: An Over-the-Air Adversarial Attack Dataset for Speaker Verification. \textit{Proceedings of the 49th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024).}
@@ -71,7 +86,7 @@
 \item 工作描述：提出了音频指纹的时间定位算法，将准确率从95.80\%提高到97.90\%，时间定位的IOU为0.62
 \end{itemize}
 
-\datedsubsection{\textbf{华为MTI音频工程部}}{2021年4月 -- 2022年6月}
+\datedsubsection{\textbf{华为MTI音频工程部}}{2021年4月 -- 2021年6月}
 \begin{itemize}
 \item 课题：音乐分离
 \item 工作描述：复现D3Net，使用MUSDB数据集进行训练和测试，将人声、鼓声、低音和其他音轨分离，测试平均SDR为6.43
@@ -84,6 +99,13 @@
 \end{itemize}
 
 \section{项目经历}
+\datedsubsection{\textbf{华为鸿蒙 7 音频鉴伪}}{2025年1月 -- 至今}
+\role{项目成员}{与华为开展的产学研合作项目}
+\begin{itemize}
+\item 参与华为鸿蒙 7 音频鉴伪能力的研究、开发与产品落地
+\item 面向多类语音生成方法及真实通信信道失真，研究具有泛化性和鲁棒性的音频深度伪造检测方法
+\end{itemize}
+
 \datedsubsection{\textbf{人工智能语音唤醒技术研究}}{2021年1月 -- 2022年1月}
 \role{负责人}{研究生期间与小米公司合作的协作项目}
 \begin{itemize}

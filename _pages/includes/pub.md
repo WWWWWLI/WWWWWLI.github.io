@@ -1,5 +1,53 @@
 # 📝 Publications 
 
+*7 peer-reviewed papers, 1 accepted paper, 1 submitted manuscript, and 3 technical reports/preprints.*
+
+## 📚 General Speech Deepfake Detection
+
+[GenTraceBench: A Benchmark for Tracing Audio Deepfakes Across Pre- and Post-training Stages](https://arxiv.org/abs/2609.21738) \\
+**Li Wang**, Kunyu Feng, Wan Lin, Dekun Chen, Qinke Ni, Xueyao Zhang, Lei Wang, Jie Shi, Haizhou Li, Zhizheng Wu.
+
+- IEEE ISCSLP 2026 (Accepted); [arXiv:2609.21738](https://arxiv.org/abs/2609.21738).
+
+- GenTraceBench evaluates how pre-training and post-training change the forensic fingerprints of synthesized speech. It contains 49,728 utterances from 16 model variants and supports controlled evaluation of audio deepfake detection and attribution.
+
+[RealComm: Benchmarking and Adapting Audio Deepfake Detection over Real Communication Channels](https://wwwwwli.github.io/RealComm/) [[Manuscript](https://wwwwwli.github.io/RealComm/downloads/RealComm.pdf)] [[Code](https://github.com/AmphionTeam/RealComm)] \\
+**Li Wang***, Jindong Wang*, Wan Lin*, Kunyu Feng*, Lei Wang, Rizhao Cai, Ce Fang, Jinzhe Xue, Jie Shi, Haizhou Li, Zhizheng Wu. (* Equal contribution.)
+
+- Submitted to IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP).
+
+- RealComm pairs digital speech with recordings of the same utterances transmitted through real mobile calls. It benchmarks detector robustness across acoustic and wired injection conditions and studies adaptation with simulated augmentation and real-call training.
+
+[Teffic-Audio: Tell Fact from Fiction](https://arxiv.org/abs/2607.28351) [[Project Page](https://tefficlabs.com/)] \\
+Wan Lin, **Li Wang**, Jindong Wang, Kunyu Feng, Zhizheng Wu.
+
+- Technical Report, 2026.
+
+- Teffic-Audio is a practical general speech deepfake detection system designed for robust performance across heterogeneous spoofing mechanisms and audio conditions. Using a straightforward Conformer-based detector and a training recipe built on multi-source open data, balanced sampling, and diverse augmentation, it achieves a pooled EER of 1.454% across 14 Speech-DF-Arena test sets, outperforming all currently public systems on the leaderboard.
+
+[DFALLM: Achieving Generalizable Multitask Deepfake Detection by Optimizing Audio LLM Components](https://arxiv.org/abs/2512.08403) \\
+Yupei Li*, **Li Wang***, Yuxiang Wang, Lei Wang, Rizhao Cai, Jie Shi, Björn W. Schuller, Zhizheng Wu. (* Equal contribution.)
+
+- Technical Report, 2025.
+
+- DFALLM is an Audio LLM framework for generalizable, multitask audio deepfake detection. By optimizing the combination of audio encoders and text-based LLMs, it generalizes to out-of-domain spoofing and supports binary detection, spoof attribution, and localization, achieving an average accuracy of up to 95.76% across ASVspoof 2019, In-the-Wild, and Demopage.
+
+## 📚 Speech Language Model Safety
+
+[VoxSafeBench: Not Just What Is Said, but Who, How, and Where](https://arxiv.org/abs/2604.14548) [[Project Page](https://amphionteam.github.io/VoxSafeBench_demopage/)] [[Code](https://github.com/AmphionTeam/VoxSafeBench)] \\
+Yuxiang Wang, Hongyu Liu, Yijiang Xu, Qinke Ni, **Li Wang**, Wan Lin, Kunyu Feng, Dekun Chen, Xu Tan, Lei Wang, Jie Shi, Zhizheng Wu.
+
+- Preprint, [arXiv:2604.14548](https://arxiv.org/abs/2604.14548), 2026.
+
+- VoxSafeBench is a comprehensive benchmark for evaluating the social alignment of speech language models across safety, fairness, and privacy. Its two-tier design covers both content-centric and audio-conditioned risks across 22 bilingual tasks, revealing a speech grounding gap in which current models often recognize acoustic cues but fail to act on them appropriately.
+
+## 📚 Speech Naturalness Evaluation
+
+[SpeechJudge: Towards Human-Level Judgment for Speech Naturalness](https://arxiv.org/abs/2511.07931) \\
+Xueyao Zhang, Chaoren Wang, Huan Liao, Ziniu Li, Yuancheng Wang, **Li Wang**, Dongya Jia, Yuanzhe Chen, Xiulin Li, Zhuo Chen, Zhizheng Wu.
+
+- ICLR 2026.
+
 ## 📚 Spoken Misinformation Detection
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SLT 2024</div><img src='images/spmis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

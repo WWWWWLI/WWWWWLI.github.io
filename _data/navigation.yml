@@ -12,11 +12,20 @@ main:
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Education"
+    url: "/#-education"
 
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+  - title: "Experience"
+    url: "/#-research-and-work-experience"
 
   - title: "Internships"
     url: "/#-internships"
+
+  - title: "Projects"
+    url: "/#-selected-projects"
+
+  - title: "Intellectual Property"
+    url: "/#-patents-and-software-copyright"
+
+  - title: "Services"
+    url: "/#-services"
