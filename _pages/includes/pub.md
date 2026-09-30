@@ -7,7 +7,7 @@
    *IEEE ISCSLP 2026 (Accepted).* [[Paper](https://arxiv.org/abs/2609.21738)]
 
 2. **[RealComm: Benchmarking and Adapting Audio Deepfake Detection over Real Communication Channels](https://wwwwwli.github.io/RealComm/)**<br>
-   **Li Wang**<sup>*</sup>, Jindong Wang<sup>*</sup>, Wan Lin<sup>*</sup>, Kunyu Feng<sup>*</sup>, Lei Wang, Rizhao Cai, Ce Fang, Jinzhe Xue, Jie Shi, Haizhou Li, Zhizheng Wu. (<sup>*</sup> Equal contribution.)<br>
+   **Li Wang**†, Jindong Wang†, Wan Lin†, Kunyu Feng†, Lei Wang, Rizhao Cai, Ce Fang, Jinzhe Xue, Jie Shi, Haizhou Li, Zhizheng Wu. († Equal contribution.)<br>
    *Submitted to IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP).* [[Project](https://wwwwwli.github.io/RealComm/)] [[Paper](https://wwwwwli.github.io/RealComm/downloads/RealComm.pdf)] [[Code](https://github.com/AmphionTeam/RealComm)]
 
 3. **[Teffic-Audio: Tell Fact from Fiction](https://arxiv.org/abs/2607.28351)**<br>
@@ -19,7 +19,7 @@
    *Preprint, 2026.* [[Paper](https://arxiv.org/abs/2604.14548)] [[Project](https://amphionteam.github.io/VoxSafeBench_demopage/)] [[Code](https://github.com/AmphionTeam/VoxSafeBench)]
 
 5. **[DFALLM: Achieving Generalizable Multitask Deepfake Detection by Optimizing Audio LLM Components](https://arxiv.org/abs/2512.08403)**<br>
-   Yupei Li<sup>*</sup>, **Li Wang**<sup>*</sup>, Yuxiang Wang, Lei Wang, Rizhao Cai, Jie Shi, Björn W. Schuller, Zhizheng Wu. (<sup>*</sup> Equal contribution.)<br>
+   Yupei Li†, **Li Wang**†, Yuxiang Wang, Lei Wang, Rizhao Cai, Jie Shi, Björn W. Schuller, Zhizheng Wu. († Equal contribution.)<br>
    *Technical Report, 2025.* [[Paper](https://arxiv.org/abs/2512.08403)]
 
 6. **[SpeechJudge: Towards Human-Level Judgment for Speech Naturalness](https://arxiv.org/abs/2511.07931)**<br>
@@ -31,7 +31,7 @@
    *IEEE/ACM TASLP 2026.* [[Paper](https://ieeexplore.ieee.org/document/11334038)]
 
 8. **[SpMis: An Investigation of Synthetic Spoken Misinformation Detection](https://arxiv.org/abs/2409.11308)**<br>
-   Peizhuo Liu<sup>*</sup>, **Li Wang**<sup>*</sup>, Renqiang He<sup>*</sup>, Haorui He, Lei Wang, Huadi Zheng, Jie Shi, Tong Xiao, Zhizheng Wu. (<sup>*</sup> Equal contribution.)<br>
+   Peizhuo Liu†, **Li Wang**†, Renqiang He†, Haorui He, Lei Wang, Huadi Zheng, Jie Shi, Tong Xiao, Zhizheng Wu. († Equal contribution.)<br>
    *IEEE SLT 2024 — Best Paper Finalist, Top 2.5%.* [[Paper](https://arxiv.org/abs/2409.11308)]
 
 9. **[AdvSV: An Over-the-Air Adversarial Attack Dataset for Speaker Verification](https://arxiv.org/abs/2310.05369)**<br>
