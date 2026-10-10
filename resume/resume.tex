@@ -3,14 +3,14 @@
 \documentclass{resume}
 \usepackage{zh_CN-Adobefonts_external}
 
-\titlespacing*{\section}{0pt}{1.15ex}{0.65ex}
-\titlespacing*{\subsection}{0pt}{0.75ex}{0.2ex}
-\setlist[itemize]{topsep=0.15em,itemsep=0pt,parsep=0pt,leftmargin=1.35pc}
-\setlist[enumerate]{topsep=0.15em,itemsep=0.18em,parsep=0pt,leftmargin=1.5pc}
+\titlespacing*{\section}{0pt}{1.45ex}{0.8ex}
+\titlespacing*{\subsection}{0pt}{0.95ex}{0.3ex}
+\setlist[itemize]{topsep=0.2em,itemsep=0.1em,parsep=0pt,leftmargin=1.35pc}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.25em,parsep=0pt,leftmargin=1.5pc}
 
 \begin{document}
 \pagenumbering{gobble}
-\small
+\normalsize
 
 \noindent
 \begin{minipage}[c]{0.82\textwidth}
@@ -46,7 +46,7 @@ GPA 3.69/4.00, ranked 8/162 (top 4.9\%)
   \item \textbf{Li Wang*}, Jindong Wang*, Wan Lin*, Kunyu Feng* et al. \href{https://wwwwwli.github.io/RealComm/}{\textit{RealComm: Benchmarking and Adapting Audio Deepfake Detection over Real Communication Channels.}} Submitted to \textbf{IEEE/ACM TASLP}. (* Equal contribution.)
   \item Yupei Li*, \textbf{Li Wang*} et al. \href{https://arxiv.org/abs/2512.08403}{\textit{DFALLM: Achieving Generalizable Multitask Deepfake Detection by Optimizing Audio LLM Components.}} Technical report, 2025. (* Equal contribution.)
   \item Xueyao Zhang et al. \href{https://arxiv.org/abs/2511.07931}{\textit{SpeechJudge: Towards Human-Level Judgment for Speech Naturalness.}} \textbf{ICLR 2026}.
-  \item \textbf{Li Wang} et al. \href{https://ieeexplore.ieee.org/document/11334038}{\textit{Over-the-Air Adversarial Attacks and Detection for Automatic Speaker Verification.}} \textbf{IEEE/ACM TASLP, 2026}.
+  \item \textbf{Li Wang} et al. \href{https://ieeexplore.ieee.org/document/11334038}{\textit{Over-the-Air Adversarial Attacks and Detection for Automatic Speaker Verification.}}\\ \textbf{IEEE/ACM TASLP, 2026}.
   \item Peizhuo Liu*, \textbf{Li Wang*}, Renqiang He* et al. \href{https://arxiv.org/abs/2409.11308}{\textit{SpMis: An Investigation of Synthetic Spoken Misinformation Detection.}} \textbf{SLT 2024, Best Paper Finalist (top 2.5\%).}
   \item \textbf{Li Wang} et al. \href{https://arxiv.org/abs/2310.05369}{\textit{AdvSV: An Over-the-Air Adversarial Attack Dataset for Speaker Verification.}} \textbf{ICASSP 2024}.
   \item \textbf{Li Wang} et al. \href{https://ieeexplore.ieee.org/document/9747878}{\textit{Learning Decoupling Features Through Orthogonality Regularization.}} \textbf{ICASSP 2022}.
@@ -66,45 +66,48 @@ Developed financial factors and deep-learning models for stock-return prediction
 \section{Internships}
 \datedsubsection{\textbf{ByteDance AI Lab} --- Research Intern}{Jun. 2021 -- Mar. 2022}
 \begin{itemize}
-  \item Proposed an audio-fingerprint temporal localization algorithm, improving accuracy from 95.80\% to 97.90\% and achieving 0.62 temporal IoU.
+  \item Worked on audio fingerprinting and music segmentation; proposed a temporal localization algorithm that improved accuracy from 95.80\% to 97.90\% and achieved 0.62 temporal IoU.
 \end{itemize}
 
 \datedsubsection{\textbf{Huawei MTI, Audio Engineering Department} --- Research Intern}{Apr. 2021 -- Jun. 2021}
 \begin{itemize}
-  \item Reproduced D3Net for four-stem music separation on MUSDB, achieving 6.43 average SDR.
+  \item Reproduced and evaluated D3Net on MUSDB for vocal, drum, bass, and residual-stem separation, achieving 6.43 average SDR.
 \end{itemize}
 
 \datedsubsection{\textbf{Tencent AI Lab} --- Research Intern}{May 2020 -- Nov. 2020}
 \begin{itemize}
-  \item Evaluated GALR speech separation for speaker verification and curated speaker metadata for 2M audio samples.
+  \item Evaluated GALR speech separation for downstream speaker verification and curated speaker metadata for 2M audio samples.
 \end{itemize}
 
 \section{Selected Projects}
 \datedsubsection{\textbf{Huawei HarmonyOS 7 Audio Deepfake Detection} --- Contributor}{Jan. 2025 -- Jan. 2027 (Planned)}
 \begin{itemize}
-  \item Contributed to the research, development, and deployment of the audio deepfake detection capability released in HarmonyOS 7, focusing on generalization across synthesis methods and real communication-channel distortions.
+  \item Contributed to the research, development, and product deployment of the audio deepfake detection capability released in HarmonyOS 7.
+  \item Worked on Chinese deepfake data construction, telephone-channel robustness, lightweight-model evaluation, and delivery of an executable inference package.
 \end{itemize}
 
 \datedsubsection{\textbf{AI Voice Wake-up Technology with Xiaomi} --- Project Lead}{Jan. 2021 -- Jan. 2022}
 \begin{itemize}
-  \item Led model and data improvements that reduced false rejection from 20\% to 2\% and achieved 99.7\% accuracy; the work supported a first-author ICASSP 2022 paper.
+  \item Led industry communication, experimental planning, and model/data-pipeline optimization for wake-word and personalized wake-up tasks.
+  \item Reduced false rejection from 20\% to 2\% and achieved 99.7\% accuracy; the work supported a first-author ICASSP 2022 paper.
 \end{itemize}
 
 \section{Patents}
 \textbf{First inventor} (co-inventor: Zhizheng Wu; assignee: SRIBD):
 \begin{enumerate}
   \item Audio deepfake detection method, apparatus, computer device, and storage medium. \textbf{ZL202411863864.6, granted Nov. 2025}.
-  \item Pretrained-model-based adversarial audio sample detection method and system. Application No. \textbf{202410942156.5}, pending.
+  \item Method and system for detecting adversarial audio with pretrained models.\\ \textbf{Application No. 202410942156.5}, pending.
   \item Open-set audio deepfake algorithm attribution method. Application No. \textbf{202510885063.8}, pending.
 \end{enumerate}
 
 \section{Academic Service}
-\textbf{Reviewer:} IEEE/ACM TASLP, ICASSP, IEEE SPL, Computer Speech \& Language, ASRU, IALP, and NCMMSC.\\
+\textbf{Reviewer:} IEEE/ACM TASLP, ICASSP, IEEE SPL, Computer Speech \& Language,\\ ASRU, IALP, and NCMMSC.\\
 \textbf{Standards:} Contributor to TC260's method for identifying AI-generated synthetic content (implicit metadata identification for text files).\\
-\textbf{Teaching Assistant:} Programming Methodology; Speech and Language Processing; Machine Learning (2023--2025), CUHK-Shenzhen.
+\textbf{Teaching Assistant:} Programming Methodology; Speech and Language Processing; Machine Learning (2023--2025), CUHK-Shenzhen.\\
+\textbf{Student Volunteer:} IEEE Spoken Language Technology Workshop (SLT 2024).
 
 \section{Honors and Skills}
-\textbf{Honors:} SLT 2024 Best Paper Finalist (top 2.5\%); Best Poster, Speaker Recognition Research and Application Workshop (2024); Duan Yongping Travel Scholarship (2023); National Second Prize, National University Student Information Security Competition (2018); First-Class Undergraduate Scholarship (2015--2017).\\
+\textbf{Honors:} SLT 2024 Best Paper Finalist (top 2.5\%); Best Poster, Speaker Recognition Research and Application Workshop (2024); Duan Yongping Travel Scholarship (2023); National Second Prize, National University Student Information Security Competition (2018); First-Class Undergraduate Scholarship (2015--2017); Outstanding Volunteer, 9th National Games for Persons with Disabilities (2015).\\
 \textbf{Skills:} Python, PyTorch, Java, C++; native Mandarin, technical English; Erhu Grade 10.
 
 \end{document}
