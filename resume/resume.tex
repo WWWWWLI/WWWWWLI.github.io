@@ -1,181 +1,110 @@
 % !TEX program = xelatex
 
 \documentclass{resume}
-\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{zh_CN-Adobefonts_external}
+
+\titlespacing*{\section}{0pt}{1.15ex}{0.65ex}
+\titlespacing*{\subsection}{0pt}{0.75ex}{0.2ex}
+\setlist[itemize]{topsep=0.15em,itemsep=0pt,parsep=0pt,leftmargin=1.35pc}
+\setlist[enumerate]{topsep=0.15em,itemsep=0.18em,parsep=0pt,leftmargin=1.5pc}
 
 \begin{document}
-\pagenumbering{gobble} % suppress displaying page number
+\pagenumbering{gobble}
+\small
 
 \noindent
 \begin{minipage}[c]{0.82\textwidth}
   \name{Li Wang 王力}
   \basicInfo{
-    \email{804672694@qq.com} \textperiodcentered\ 
-    \phone{15528025779}（微信同号） }
+    \email{804672694@qq.com} \textperiodcentered\
+    \phone{15528025779}（WeChat）}
   \basicInfo{
-    \faDesktop{\href{https://wwwwwli.github.io/}{~Homepage}} \textperiodcentered\ 
-    \faGraduationCap {\href{https://scholar.google.com/citations?user=NLQPDrsAAAAJ&hl}{~Google Scholar}} }
+    \faDesktop{\href{https://wwwwwli.github.io/}{~Homepage}} \textperiodcentered\
+    \faGraduationCap{\href{https://scholar.google.com/citations?user=NLQPDrsAAAAJ&hl}{~Google Scholar}}}
 \end{minipage}\hfill
 \begin{minipage}[c]{0.14\textwidth}
   \raggedleft
   \includegraphics[width=0.78in]{证件照.JPG}
 \end{minipage}
-\vspace{0.5ex}
+\vspace{0.4ex}
 
-\small \textbf{Research Interests:} Safety, Audio Deepfake Detection, Audio Language Model
-
+\textbf{Research Interests:} Audio safety, audio deepfake detection, and audio language models
 
 \section{Education}
-\datedsubsection{\textbf{The Chinese University of Hong Kong , Shenzhen}}{Sep. 2023 --}
-\begin{itemize}
-    \item PhD in Computer Science
-    \item Areas of Study: audio deepfake and anti-spoofing
-    \item Advisor: \href{https://sds.cuhk.edu.cn/teacher/641}{Zhizheng Wu} and \href{https://sds.cuhk.edu.cn/teacher/498}{Haizhou Li}
-\end{itemize}
+\datedsubsection{\textbf{The Chinese University of Hong Kong, Shenzhen} --- Ph.D. in Computer Science}{Sep. 2023 -- Jul. 2027 (Expected)}
+Audio deepfake detection and anti-spoofing; GPA 3.73/4.00, top 5\%; Advisors: \href{https://sds.cuhk.edu.cn/teacher/641}{Zhizheng Wu} and \href{https://sds.cuhk.edu.cn/teacher/498}{Haizhou Li}
 
+\datedsubsection{\textbf{Peking University} --- M.Eng. in Computer Application Technology (Exam-exempted)}{Sep. 2019 -- Jul. 2022}
+Keyword spotting and speaker verification; top 5\%; Advisor: \href{https://web.pkusz.edu.cn/adsp/}{Yuexian Zou}
 
-\datedsubsection{\textbf{Peking University} (Exam-exempted postgraduate)}{Sep. 2019 -- Jun. 2022}
-\begin{itemize}
-    \item Master in Electronic and Computer Engineering (ECE)
-    \item Areas of Study: spoken keyword spotting and speaker verification
-    \item Advisor: \href{https://web.pkusz.edu.cn/adsp/}{Yuexian Zou}
-\end{itemize}
+\datedsubsection{\textbf{University of Electronic Science and Technology of China} --- B.Eng. in Software Engineering}{Sep. 2015 -- Jun. 2019}
+GPA 3.69/4.00, ranked 8/162 (top 4.9\%)
 
-\datedsubsection{\textbf{University of Electronic Science and Technology of China}}{Sep. 2015 -- Jun. 2019}
-\begin{itemize}
-    \item \textit{B.Eng.} in Information and Software Engineering
-    \item GPA: 3.69/4.00, Ranking: 8/162(Top 4.9\%)
-    \item Core courses: Random Signal Analysis (99), Digital Signal Processing (95)
-\end{itemize}
-
-\section{Publications}
-\begin{enumerate}\itemsep 0.5em
-  \item \textbf{Li Wang}, Kunyu Feng, Wan Lin, Dekun Chen, Qinke Ni, Xueyao Zhang, Lei Wang, Jie Shi, Haizhou Li, Zhizheng Wu. \href{https://arxiv.org/abs/2609.21738}{[PDF]} \\GenTraceBench: A Benchmark for Tracing Audio Deepfakes Across Pre- and Post-training Stages. \textit{Accepted by the IEEE International Symposium on Chinese Spoken Language Processing (ISCSLP 2026).}
-  \item \textbf{Li Wang*}, Jindong Wang*, Wan Lin*, Kunyu Feng*, Lei Wang, Rizhao Cai, Ce Fang, Jinzhe Xue, Jie Shi, Haizhou Li, Zhizheng Wu. \href{https://wwwwwli.github.io/RealComm/}{[Project]} \href{https://github.com/AmphionTeam/RealComm}{[Code]} \\RealComm: Benchmarking and Adapting Audio Deepfake Detection over Real Communication Channels. \textit{Submitted to IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP). (* Equal contribution.)}
-  \item Wan Lin, \textbf{Li Wang}, Jindong Wang, Kunyu Feng, Zhizheng Wu. \href{https://arxiv.org/abs/2607.28351}{[PDF]} \href{https://tefficlabs.com/}{[Project]} \\Teffic-Audio: Tell Fact from Fiction. \textit{Technical Report, arXiv:2607.28351, 2026.}
-  \item Yuxiang Wang, Hongyu Liu, Yijiang Xu, Qinke Ni, \textbf{Li Wang}, Wan Lin, Kunyu Feng, Dekun Chen, Xu Tan, Lei Wang, Jie Shi, Zhizheng Wu. \href{https://arxiv.org/abs/2604.14548}{[PDF]} \href{https://amphionteam.github.io/VoxSafeBench_demopage/}{[Project]} \href{https://github.com/AmphionTeam/VoxSafeBench}{[Code]} \\VoxSafeBench: Not Just What Is Said, but Who, How, and Where. \textit{Preprint, arXiv:2604.14548, 2026.}
-  \item Yupei Li*, \textbf{Li Wang*}, Yuxiang Wang, Lei Wang, Rizhao Cai, Jie Shi, Björn W. Schuller, Zhizheng Wu. \href{https://arxiv.org/abs/2512.08403}{[PDF]} \\DFALLM: Achieving Generalizable Multitask Deepfake Detection by Optimizing Audio LLM Components. \textit{Technical Report, arXiv:2512.08403, 2025. (* Equal contribution.)}
-  \item Xueyao Zhang, Chaoren Wang, Huan Liao, Ziniu Li, Yuancheng Wang, \textbf{Li Wang}, Dongya Jia, Yuanzhe Chen, Xiulin Li, Zhuo Chen, Zhizheng Wu. \href{https://arxiv.org/abs/2511.07931}{[PDF]} \\SpeechJudge: Towards Human-Level Judgment for Speech Naturalness. \textit{Proceedings of the 14th International Conference on Learning Representations (ICLR 2026).}
-  \item \textbf{Li Wang}, Xiao Lei, Haorui He, Lei Wang, Jie Shi, Zhizheng Wu. \href{https://ieeexplore.ieee.org/document/11334038}{[PDF]} \\Over-the-Air Adversarial Attacks and Detection for Automatic Speaker Verification. \textit{IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), 2026.}
-  \item Peizhuo Liu*, \textbf{Li Wang*}, Renqiang He*, Haorui He, Lei Wang, Huadi Zheng, Jie Shi, Tong Xiao, Zhizheng Wu. \href{https://arxiv.org/abs/2409.11308}{[PDF]} \\SpMis: An Investigation of Synthetic Spoken Misinformation Detection. \textit{Proceedings of the IEEE Spoken Language Technology Workshop (SLT 2024).} (\textbf{Best Paper Finalist, Top 2.5\%})
-  \newpage
-  \item \textbf{Li Wang}, Jiaqi Li, Yuhao Luo, Jiahao Zheng, Lei Wang, Hao Li, Ke Xu, Chengfang Fang, Jie Shi, Zhizheng Wu. \href{https://arxiv.org/abs/2310.05369}{[PDF]} \\AdvSV: An Over-the-Air Adversarial Attack Dataset for Speaker Verification. \textit{Proceedings of the 49th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024).}
- \item Jiaqi Li, \textbf{Li Wang}, Liumeng Xue, Lei Wang, Zhizheng Wu. \href{https://arxiv.org/abs/2310.05354}{[PDF]} \\An Initial Investigation of Neural Replay Simulator for Over-the-Air Adversarial Perturbations to Automatic Speaker Verification. \textit{Proceedings of the 49th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024).}
-  \item \textbf{Li Wang}, Rongzhi Gu, Weiji Zhuang, Peng Gao, Yujun Wang, Yuexian Zou. \href{https://ieeexplore.ieee.org/document/9747878}{[PDF]} \\Learning Decoupling Features Through Orthogonality Regularization. \textit{Proceedings of the 47th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022).}
-  \item \textbf{Li Wang}, Rongzhi Gu, Nuo Chen, Yuexian Zou. \href{https://www.isca-speech.org/archive/interspeech_2021/wang21da_interspeech.html}{[PDF]} \\ Text Anchor Based Metric Learning for Small-Footprint Keyword Spotting. \textit{Proceedings of the 22nd Annual Conference of the International Speech Communication Association (Interspeech 2021).}
-
+\section{Selected Publications}
+\begin{enumerate}
+  \item \textbf{Li Wang} et al. \href{https://arxiv.org/abs/2609.21738}{\textit{GenTraceBench: A Benchmark for Tracing Audio Deepfakes Across Pre- and Post-training Stages.}} \textbf{ISCSLP 2026, accepted.}
+  \item \textbf{Li Wang*}, Jindong Wang*, Wan Lin*, Kunyu Feng* et al. \href{https://wwwwwli.github.io/RealComm/}{\textit{RealComm: Benchmarking and Adapting Audio Deepfake Detection over Real Communication Channels.}} Submitted to \textbf{IEEE/ACM TASLP}. (* Equal contribution.)
+  \item Yupei Li*, \textbf{Li Wang*} et al. \href{https://arxiv.org/abs/2512.08403}{\textit{DFALLM: Achieving Generalizable Multitask Deepfake Detection by Optimizing Audio LLM Components.}} Technical report, 2025. (* Equal contribution.)
+  \item Xueyao Zhang et al. \href{https://arxiv.org/abs/2511.07931}{\textit{SpeechJudge: Towards Human-Level Judgment for Speech Naturalness.}} \textbf{ICLR 2026}.
+  \item \textbf{Li Wang} et al. \href{https://ieeexplore.ieee.org/document/11334038}{\textit{Over-the-Air Adversarial Attacks and Detection for Automatic Speaker Verification.}} \textbf{IEEE/ACM TASLP, 2026}.
+  \item Peizhuo Liu*, \textbf{Li Wang*}, Renqiang He* et al. \href{https://arxiv.org/abs/2409.11308}{\textit{SpMis: An Investigation of Synthetic Spoken Misinformation Detection.}} \textbf{SLT 2024, Best Paper Finalist (top 2.5\%).}
+  \item \textbf{Li Wang} et al. \href{https://arxiv.org/abs/2310.05369}{\textit{AdvSV: An Over-the-Air Adversarial Attack Dataset for Speaker Verification.}} \textbf{ICASSP 2024}.
+  \item \textbf{Li Wang} et al. \href{https://ieeexplore.ieee.org/document/9747878}{\textit{Learning Decoupling Features Through Orthogonality Regularization.}} \textbf{ICASSP 2022}.
+  \item \textbf{Li Wang} et al. \href{https://www.isca-speech.org/archive/interspeech_2021/wang21da_interspeech.html}{\textit{Text Anchor Based Metric Learning for Small-Footprint Keyword Spotting.}} \textbf{Interspeech 2021}.
 \end{enumerate}
+\textit{Additional work:} Teffic-Audio, VoxSafeBench, and Neural Replay Simulator. Full list: \href{https://wwwwwli.github.io/}{Homepage} / \href{https://scholar.google.com/citations?user=NLQPDrsAAAAJ&hl}{Google Scholar}.
 
+\section{Professional Experience}
+\datedsubsection{\textbf{Shenzhen Research Institute of Big Data (SRIBD)} --- Research Assistant}{Nov. 2022 -- Aug. 2023}
+Led a Huawei collaboration on physical attacks against speaker verification; built a 1.1M-sample attack dataset and established the defense approach adopted for continued development.
 
-\section{Experience}
-\datedsubsection{\textbf{Shenzhen Research Institute of Big Data (SRIBD)}}{Nov. 2022 -- Aug. 2023}
-{\small \role{Research Assistant, Institute of Basic Theory and Algorithm of Big Data, Shenzhen, China}{}}
-Leading a project with Huawei on detecting physical attacks in speaker verification technology.
-\begin{itemize}
-    \item Successfully generated a dataset of 1.1 million data samples for physical attacks on speaker verification.
-    \item Determined the technical route for the defense method, which was fully affirmed and supported by Huawei.
-    \item Contributed to developing a reliable defense mechanism for speaker verification against physical attacks.
-    \item Demonstrated strong leadership, problem-solving, and technical skills throughout the project.
-\end{itemize}
+\datedsubsection{\textbf{International Digital Economy Academy (IDEA)} --- Financial ML Engineer}{Jul. 2022 -- Oct. 2022}
+Developed financial factors and deep-learning models for stock-return prediction.
 
-
-\datedsubsection{\textbf{International Digital Economy Academy (IDEA)}}{Jul. 2022 -- Oct. 2022}
-{\small \role{Financial Machine Learning Engineer, AI Finance and Deep Learning Research Center, Shenzhen, China}{}}
-Create financial factors (features) and design deep learning models to predict stock returns.
-
+\newpage
 
 \section{Internships}
-\datedsubsection{\textbf{AILAB, ByteDance}}{Jul. 2021 -- Mar. 2022}
+\datedsubsection{\textbf{ByteDance AI Lab} --- Research Intern}{Jun. 2021 -- Mar. 2022}
 \begin{itemize}
-    \item Topic: Audio fingerprinting and music segmentation
-    \item Job Description: Proposed the audio fingerprint temporal localization algorithm. The accuracy rate was improved from 95.80\% to 97.90\%, and the IOU of temporal localization was 0.62.
+  \item Proposed an audio-fingerprint temporal localization algorithm, improving accuracy from 95.80\% to 97.90\% and achieving 0.62 temporal IoU.
 \end{itemize}
 
-\datedsubsection{\textbf{Audio Engineering Department, HuaWei MTI}}{Apr. 2021 -- Jun. 2021}
+\datedsubsection{\textbf{Huawei MTI, Audio Engineering Department} --- Research Intern}{Apr. 2021 -- Jun. 2021}
 \begin{itemize}
-    \item Topic: Music separation
-    \item Job Description: Replicated D3Net and trained and tested on the MUSDB dataset, separating vocals, drums, bass and other
-tracks separately, with a test average SDR of 6.43.
+  \item Reproduced D3Net for four-stem music separation on MUSDB, achieving 6.43 average SDR.
 \end{itemize}
 
-\datedsubsection{\textbf{AI Lab, Tencent}}{May. 2020 -- Nov. 2020}
+\datedsubsection{\textbf{Tencent AI Lab} --- Research Intern}{May 2020 -- Nov. 2020}
 \begin{itemize}
-    \item Topic: Speech separation and speaker verification
-    \item Job Description: Testing the performance of the speech separation model GALR on a speaker verification task, collating
-speaker information from 2,000,000 pieces of audio data.
+  \item Evaluated GALR speech separation for speaker verification and curated speaker metadata for 2M audio samples.
 \end{itemize}
 
-\section{Projects}
-\datedsubsection{\textbf{Huawei HarmonyOS 7 Audio Deepfake Detection}}{Jan. 2025 -- Present}
-\role{Contributor}{Industry--academia collaboration with Huawei}
+\section{Selected Projects}
+\datedsubsection{\textbf{Huawei HarmonyOS 7 Audio Deepfake Detection} --- Contributor}{Jan. 2025 -- Jan. 2027 (Planned)}
 \begin{itemize}
-  \item Contributed to the research, development, and product deployment of the audio deepfake detection capability released in Huawei HarmonyOS 7.
-  \item Developed generalizable and robust detection techniques for diverse speech synthesis methods and distortions in real communication channels.
+  \item Contributed to the research, development, and deployment of the audio deepfake detection capability released in HarmonyOS 7, focusing on generalization across synthesis methods and real communication-channel distortions.
 \end{itemize}
 
-\datedsubsection{\textbf{Research on Voice Wake-up Technology of Artificial Intelligence}}{Jan. 2021 -- Jan. 2022}
-\role{Leader}{Collaborative project between the lab and Xiaomi during graduate school.}
+\datedsubsection{\textbf{AI Voice Wake-up Technology with Xiaomi} --- Project Lead}{Jan. 2021 -- Jan. 2022}
 \begin{itemize}
-  \item Communicated with Xiaomi to track project progress, understand data requirements.
-  \item Optimized network design and data enhancement to improve model performance.
-  \item Reduced the false rejection rate from 20\% to 2\% and achieved an accuracy rate of 99.7\%.
-  \item Collaborated on personalized wake-up task and submitted ICASSP2022 paper as first author.
+  \item Led model and data improvements that reduced false rejection from 20\% to 2\% and achieved 99.7\% accuracy; the work supported a first-author ICASSP 2022 paper.
 \end{itemize}
 
-
-\section{Services}
-\datedsubsection{\textbf{Reviewer}}{}
-\begin{itemize}
-  \item IEEE/ACM Transactions on Audio, Speech, and Language Processing (IF 4.1)
-  \item IEEE International Conference on Acoustics, Speech and Signal Processing
-  \item IEEE Signal Processing Letters (IF 3.201)
-  \item National Conference on Man-Machine Speech Communication (NCMMSC)
-  \item International Conference on Asian Language Processing (IALP)
-  \item Computer Speech \& Language (IF 3.252)
-  \item Workshop on Automatic speech Recognition and Understanding
-\end{itemize}
-
-\datedsubsection{\textbf{Standards Development}}{}
-\begin{itemize}
-  \item Contributed to the development of ``Method for Identifying AI-Generated Synthetic Content'' (Metadata Implicit Identification for Text Files), published by National Technical Committee 260 on Cybersecurity of SAC (TC260).
-\end{itemize}
-
-\datedsubsection{\textbf{Student Volunteer}}{}
-\begin{itemize}
-  \item IEEE Spoken Language Technology Workshop 2024
-\end{itemize}
-
-\datedsubsection{\textbf{Teaching Assistant}}{}
-\begin{itemize}
-  \item 2023 Fall, CSC1001 Introduction to Computer Science: Programming Methodology, CUHK-Shenzhen.
-  \item 2024 Spring, CSC3160/AIR6063 Fundamentals of Speech and Language Processing/Spoken Language Processing, CUHK-Shenzhen.
-  \item 2024 Fall, DDA3020 Machine Learning, CUHK-Shenzhen.
-  \item 2025 Spring, DDA3020 Machine Learning, CUHK-Shenzhen.
-
-\end{itemize}
-
-
-\section{Honors and Awards}
+\section{Patents}
+\textbf{First inventor} (co-inventor: Zhizheng Wu; assignee: SRIBD):
 \begin{enumerate}
-  \item National Second Prize of National University Student Information Security Competition \textit{全国大学生信息安全竞赛国家级二等奖}(2018)
-  \item Undergraduate People's First Class Scholarship \textit{本科生人民一等奖学金}(2015)
-  \item Undergraduate People's First Class Scholarship \textit{本科生人民一等奖学金}(2016)
-  \item Undergraduate People's First Class Scholarship \textit{本科生人民一等奖学金}(2017)
-  \item Outstanding Volunteer of the 9th Paralympic Games of the People's Republic of China. \textit{中华人民共和国第九届残疾人运动会优秀志愿者}(2015)
-  \item Peking University 4x100m Runner-up in the School Games. \textit{北京大学校运会4x100米亚军}(2021)
+  \item Audio deepfake detection method, apparatus, computer device, and storage medium. \textbf{ZL202411863864.6, granted Nov. 2025}.
+  \item Pretrained-model-based adversarial audio sample detection method and system. Application No. \textbf{202410942156.5}, pending.
+  \item Open-set audio deepfake algorithm attribution method. Application No. \textbf{202510885063.8}, pending.
 \end{enumerate}
 
+\section{Academic Service}
+\textbf{Reviewer:} IEEE/ACM TASLP, ICASSP, IEEE SPL, Computer Speech \& Language, ASRU, IALP, and NCMMSC.\\
+\textbf{Standards:} Contributor to TC260's method for identifying AI-generated synthetic content (implicit metadata identification for text files).\\
+\textbf{Teaching Assistant:} Programming Methodology; Speech and Language Processing; Machine Learning (2023--2025), CUHK-Shenzhen.
 
-\section{Skills}
-\begin{itemize}
-  \item Erhu Grade 10.
-  \item Programming Languages: proficient in Python, familiar with Java, and know about C++.
-  \item Deep Learning Frameworks: proficient in PyTorch.
-\end{itemize}
+\section{Honors and Skills}
+\textbf{Honors:} SLT 2024 Best Paper Finalist (top 2.5\%); Best Poster, Speaker Recognition Research and Application Workshop (2024); Duan Yongping Travel Scholarship (2023); National Second Prize, National University Student Information Security Competition (2018); First-Class Undergraduate Scholarship (2015--2017).\\
+\textbf{Skills:} Python, PyTorch, Java, C++; native Mandarin, technical English; Erhu Grade 10.
 
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
 \end{document}
